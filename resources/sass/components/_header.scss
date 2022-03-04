@@ -16,9 +16,37 @@ header{
         }
     }
     .mid{
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
+
+            .search{
+                form{
+                    display: flex;
+                    width: 700px;
+                    input{
+                        flex: 1;
+                        border: none;
+                        background-color: #ededed;
+                        padding: 10px 20px;
+                        border-bottom-left-radius: 3px;
+                        border-top-left-radius: 3px;
+
+                    }
+                    .search-btn{
+                        border: none;
+                        padding: 10px 20px;
+                        color: #fff;
+                        background-color: #ED1C24;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
     }
-    .bottom{
+    // .bottom{
         
-    }
+    // }
 }

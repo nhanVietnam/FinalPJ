@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 @import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800&display=swap);
->>>>>>> 95740977a8f65e4b1b467652241f07c961a84ab6
 @charset "UTF-8";
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -11290,10 +11287,7 @@ textarea.form-control-lg {
 *::before,
 *::after {
   box-sizing: border-box;
-<<<<<<< HEAD
-=======
   text-decoration: none;
->>>>>>> 95740977a8f65e4b1b467652241f07c961a84ab6
 }
 
 /* Remove default margin */
@@ -11386,10 +11380,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
-<<<<<<< HEAD
-=======
   color: #333;
->>>>>>> 95740977a8f65e4b1b467652241f07c961a84ab6
 }
 
 a {
@@ -11416,7 +11407,6 @@ a {
   background: #555;
 }
 
-<<<<<<< HEAD
 .container,
 .container-fluid,
 .container-xxl,
@@ -11427,47 +11417,6 @@ a {
   padding: auto;
 }
 
-@media (min-width: 576px) {
-  .container-sm,
-.container {
-    max-width: 540px;
-  }
-}
-@media (min-width: 768px) {
-  .container-md,
-.container-sm,
-.container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .container-lg,
-.container-md,
-.container-sm,
-.container {
-    max-width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .container-xl,
-.container-lg,
-.container-md,
-.container-sm,
-.container {
-    max-width: 1170px;
-  }
-}
-@media (min-width: 1200px) {
-  .container-xl,
-.container-lg,
-.container-md,
-.container-sm,
-.container {
-    max-width: 1170px;
-  }
-}
-=======
->>>>>>> 95740977a8f65e4b1b467652241f07c961a84ab6
 .show {
   display: block !important;
   opacity: 1 !important;
@@ -11615,8 +11564,6 @@ a {
   padding: 15px;
   margin: 15px auto;
 }
-<<<<<<< HEAD
-=======
 
 header .top .swiper {
   width: 100%;
@@ -11632,4 +11579,27 @@ header .top .links {
   color: white;
   background-color: #ED1C24;
 }
->>>>>>> 95740977a8f65e4b1b467652241f07c961a84ab6
+header .mid .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .mid .container .search form {
+  display: flex;
+  width: 700px;
+}
+header .mid .container .search form input {
+  flex: 1;
+  border: none;
+  background-color: #ededed;
+  padding: 10px 20px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+header .mid .container .search form .search-btn {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #ED1C24;
+  border-radius: 3px;
+}
