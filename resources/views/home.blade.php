@@ -10,12 +10,12 @@
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')">Slide 1</div>
-                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"">Slide 2</div>
-                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')">Slide 3</div>
+                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"></div>
+                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')""></div>
+                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"></div>
                 </div>
             </div>
-            <div class="links">
+            <div class="links container">
                 <a href="#">
                     Tư vấn mua hàng:1800 6975
                 </a>
