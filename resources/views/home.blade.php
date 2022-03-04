@@ -49,9 +49,18 @@
                     </form>
                 </div>
                 <div class="user">
-                    <i></i>
+                    <div class="user--icon">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="user--label">
+                        <span>Đăng nhập / Đăng ký</span>
+                        <p>Tài khoản <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+                    </div>
                 </div>
-                <div class="cart"></div>
+                <div class="cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <p>Giỏ hàng</p>
+                </div>
             </div>
         </section>
         {{-- Middle Section End --}}

@@ -11577,31 +11577,6 @@ header .top .swiper .swiper-slide {
 header .top .links {
   background-color: #ED1C24;
 }
-<<<<<<< HEAD
-header .mid .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-header .mid .container .search form {
-  display: flex;
-  width: 700px;
-}
-header .mid .container .search form input {
-  flex: 1;
-  border: none;
-  background-color: #ededed;
-  padding: 10px 20px;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
-}
-header .mid .container .search form .search-btn {
-  border: none;
-  padding: 10px 20px;
-  color: #fff;
-  background-color: #ED1C24;
-  border-radius: 3px;
-=======
 @media screen and (max-width: 799px) {
   header .top .links {
     display: none;
@@ -11620,8 +11595,60 @@ header .top .links-wrapper a {
   padding: 0 15px;
   border-left: 0.5px solid white;
 }
+header .top .links-wrapper a:last-child {
+  padding-right: 0;
+}
 header .top .links-wrapper a i {
   font-size: 3rem;
   margin-right: 8px;
->>>>>>> 169f1e6f218c549114a298b0ada1657b3ba047ef
+}
+header .mid .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .mid .container .logo2 {
+  width: 250px;
+}
+header .mid .container .logo2 img {
+  width: 100%;
+}
+header .mid .container .search form {
+  display: flex;
+  width: 700px;
+}
+header .mid .container .search form input {
+  flex: 1;
+  border: none;
+  background-color: #ededed;
+  padding: 10px 20px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  outline: none;
+}
+header .mid .container .search form .search-btn {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #ED1C24;
+  border-radius: 3px;
+}
+header .mid .container .search form .search-btn i {
+  margin-right: 10px;
+}
+header .mid .container .user {
+  display: flex;
+  align-items: center;
+}
+header .mid .container .user .user--icon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+header .mid .container .cart {
+  display: flex;
+  align-items: center;
+}
+header .mid .container .cart i {
+  font-size: 25px;
+  margin-right: 10px;
 }
