@@ -18,7 +18,14 @@ header{
                 justify-content: end;
                 a{
                     color: white;
+                    display: flex;
+                    align-items: center;
                     padding: 0 15px;
+                    border-left: 0.5px solid white;
+                    i{
+                        font-size: 3rem;
+                        margin-right: 8px;
+                    }
                 }
             }
         }

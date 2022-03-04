@@ -16,18 +16,19 @@
                 </div>
             </div>
             <div class="links">
+                <i class="fa-solid fa-headset"></i>
                 <div class="links-wrapper container">
                     <a href="#">
-                        Tư vấn mua hàng:1800 6975
+                        <i class="fa fa-headphones" aria-hidden="true"></i>Tư vấn mua hàng:1800 6975
                     </a>
                     <a href="#">
-                        CSKS:1800 6173
+                        <i class="fa fa-headphones" aria-hidden="true"></i>CSKS:1800 6173
                     </a>
                     <a href="#">
-                        Tin công nghệ
+                        <i class="fa fa-newspaper-o" aria-hidden="true"></i>Tin công nghệ
                     </a>
                     <a href="#">
-                        Tuyển dụng  
+                        <i class="fa fa-users" aria-hidden="true"></i>Tuyển dụng  
                     </a>
                 </div>
             </div>
