@@ -1,8 +1,4 @@
-
-require('./bootstrap');
-// require('font-awesome/css/font-awesome.min.css');
-
-
+require("font-awesome/css/font-awesome.min.css");
 import Swiper from "swiper";
 import "swiper/css";
 
