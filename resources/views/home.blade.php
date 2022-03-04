@@ -5,10 +5,29 @@
 @section('content')
     <header>
         <section class="top">
-            <div class="slide">
+            <!-- Slider main container -->
+            <div class="swiper container-fluid">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"></div>
+                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')""></div>
+                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"></div>
+                </div>
             </div>
-            <div class="list">
-                
+            <div class="links container">
+                <a href="#">
+                    Tư vấn mua hàng:1800 6975
+                </a>
+                <a href="#">
+                    CSKS:1800 6173
+                </a>
+                <a href="#">
+                    Tin công nghệ
+                </a>
+                <a href="#">
+                    Tuyển dụng  
+                </a>
             </div>
         </section>
         {{-- Middle section start --}}
@@ -32,7 +51,7 @@
         </section>
         {{-- Middle Section End --}}
         <section class="bottom">
-
+            
         </section>
     </header>
 @endsection
