@@ -11577,6 +11577,31 @@ header .top .swiper .swiper-slide {
 header .top .links {
   background-color: #ED1C24;
 }
+<<<<<<< HEAD
+header .mid .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .mid .container .search form {
+  display: flex;
+  width: 700px;
+}
+header .mid .container .search form input {
+  flex: 1;
+  border: none;
+  background-color: #ededed;
+  padding: 10px 20px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+header .mid .container .search form .search-btn {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #ED1C24;
+  border-radius: 3px;
+=======
 @media screen and (max-width: 799px) {
   header .top .links {
     display: none;
@@ -11598,6 +11623,7 @@ header .top .links-wrapper a {
 header .top .links-wrapper a i {
   font-size: 3rem;
   margin-right: 8px;
+>>>>>>> 169f1e6f218c549114a298b0ada1657b3ba047ef
 }
 <<<<<<< HEAD
 header .bottom {
