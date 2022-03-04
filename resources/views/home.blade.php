@@ -15,8 +15,19 @@
                 <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')">Slide 3</div>
                 </div>
             </div>
-            <div class="list">
-                
+            <div class="links">
+                <a href="#">
+                    Tư vấn mua hàng:1800 6975
+                </a>
+                <a href="#">
+                    CSKS:1800 6173
+                </a>
+                <a href="#">
+                    Tin công nghệ
+                </a>
+                <a href="#">
+                    Tuyển dụng  
+                </a>
             </div>
         </section>
         <section class="mid">
