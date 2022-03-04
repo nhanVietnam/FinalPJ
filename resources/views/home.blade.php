@@ -20,10 +20,10 @@
             </div>
         </section>
         <section class="mid">
-
+            
         </section>
         <section class="bottom">
-
+            
         </section>
     </header>
 @endsection
