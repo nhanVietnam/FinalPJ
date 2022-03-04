@@ -11577,6 +11577,11 @@ header .top .swiper .swiper-slide {
 header .top .links {
   background-color: #ED1C24;
 }
+@media screen and (max-width: 799px) {
+  header .top .links {
+    display: none;
+  }
+}
 header .top .links-wrapper {
   height: 40px;
   display: flex;

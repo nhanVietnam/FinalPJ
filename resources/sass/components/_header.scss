@@ -11,6 +11,9 @@ header{
         }
         .links{
             background-color: #ED1C24;
+            @media screen and (max-width:799px) {
+                display: none;
+            }
             &-wrapper{
                 height: 40px;
                 display: flex;
