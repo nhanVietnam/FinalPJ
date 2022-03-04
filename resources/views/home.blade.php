@@ -12,7 +12,19 @@
             </div>
         </section>
         <section class="mid">
-            
+            <div class="container-md">
+                <div class="logo">
+                    <img src="images/Logo-GEARVN_pc-300x70-1-1.png" alt="">
+                </div>
+                <div class="search">
+                    <form action="#">
+                        <input type="text" placeholder="Bạn tìm gì..">
+                        <button>
+                            <i class="ph-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
         </section>
         <section class="bottom">
 

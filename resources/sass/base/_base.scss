@@ -44,6 +44,7 @@ a {
 .container-md,
 .container-sm {
     padding: auto;
+    margin: 0 auto;
 }
 
 @media (min-width: 576px) {
@@ -108,86 +109,86 @@ a {
     display: none;
   }
 
-  .header{
-      width: 0;
-      overflow: hidden;
-      color: red;
-      transition: width 0.4s;
-      font-size: 32px;
-      font-family: OpenSan;
-  }
+.header{
+    width: 0;
+    overflow: hidden;
+    color: red;
+    transition: width 0.4s;
+    font-size: 32px;
+    font-family: OpenSan;
+}
 
-  .login{
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      position: relative;
-      cursor: pointer;
-      &_image{
-          width: 40px;
-          height: auto;
-      }
-      &_right{
-          h4{
-              font-size: 13px;
-              margin-bottom: 4px;
-          }
-          h3{
-              font-size: 14px;
-              font-weight: bold;
-              img{
-                  display: inline;
-                  width: 10px;
-              }
-          }
-      }
-      &_box{
-          position: absolute;
-          top: 100%;
-          transform: translateY(10px);
-          display: flex;
-          flex-direction: column;
-          gap: 8px;
-          padding: 8px;
-          opacity: 0;
-          pointer-events: none;
-          transition: all 0.2s linear;
-          button,a{
-              text-align: center;
-              line-height: 41px;
-              width: 236px;
-              height: 41px;
-          }
-          button{
-              background-color: yellow;
-              font-size: 14px;
-              border: none;
-              border-radius: 8px;
-          }
-          a{
-              &:first-child{
-                  background-color: #385898;
-              }
-              &:last-child{
-                  background-color: #df4a32;
-              }
-              color: white;
-              font-weight: bold;
-          }
-          &.toggle{
-              opacity: 1;
-              pointer-events: auto;
-              transform: translateY(0);
-          }
-      }
-  }
+.login{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    cursor: pointer;
+    &_image{
+        width: 40px;
+        height: auto;
+    }
+    &_right{
+        h4{
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+        h3{
+            font-size: 14px;
+            font-weight: bold;
+            img{
+                display: inline;
+                width: 10px;
+            }
+        }
+    }
+    &_box{
+        position: absolute;
+        top: 100%;
+        transform: translateY(10px);
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.2s linear;
+        button,a{
+            text-align: center;
+            line-height: 41px;
+            width: 236px;
+            height: 41px;
+        }
+        button{
+            background-color: yellow;
+            font-size: 14px;
+            border: none;
+            border-radius: 8px;
+        }
+        a{
+            &:first-child{
+                background-color: #385898;
+            }
+            &:last-child{
+                background-color: #df4a32;
+            }
+            color: white;
+            font-weight: bold;
+        }
+        &.toggle{
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateY(0);
+        }
+    }
+}
 
-  .logo{
-      width: 150px;
-      height: 150px;
-  }
+.logo{
+    width: 150px;
+    height: 150px;
+}
 
-  .modal-login,.modal-register {
+.modal-login,.modal-register {
     position: fixed;
     top: 0;
     left: 0;
@@ -201,8 +202,8 @@ a {
     flex-direction: column;
     padding: 20px;
     cursor: zoom-out;
-  }
-  .modal-content {
+}
+.modal-content {
     min-height: 350px;
     width: 100%;
     max-width: 800px;
@@ -211,8 +212,8 @@ a {
     position: relative;
     background-color: #fff;
     cursor: auto;
-  }
-  .modal-close {
+}
+.modal-close {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,8 +226,8 @@ a {
     background-color: #6a5af9;
     color: white;
     cursor: pointer;
-  }
-  .button {
+}
+.button {
     display: block;
     width: 150px;
     border: 0;
@@ -234,5 +235,11 @@ a {
     color: white;
     padding: 15px;
     margin: 15px auto;
-  }
+}
   
+.search{
+    form{
+        display: flex;
+
+    }
+}
