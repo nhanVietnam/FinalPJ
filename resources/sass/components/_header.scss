@@ -100,7 +100,43 @@ header{
             }
         }
     }
+<<<<<<< HEAD
+    .bottom{
+        margin-top: 10px;
+        .container-md {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 30px;
+            .left {
+                width: 300px;
+                padding: 6px 30px;
+                height: 100%;
+                background-color: #7c7575;
+                border-radius: 6px;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i {
+                    margin-right: 10px;
+                    font-size: 22px;
+                }
+            }
+            .right {
+                width: calc(100% - 300px)
+                display: flex;
+                height: 100%;
+                align-items:center;
+                .right-item {
+                    padding: 6px 50px;
+                }
+            }
+        }
+    }
+=======
     // .bottom{
         
     // }
+>>>>>>> 36d74f64f05b448d32f5734b8caefb3a1db4a238
 }

@@ -11652,3 +11652,38 @@ header .mid .container .cart i {
   font-size: 25px;
   margin-right: 10px;
 }
+<<<<<<< HEAD
+header .bottom {
+  margin-top: 10px;
+}
+header .bottom .container-md {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+header .bottom .container-md .left {
+  width: 300px;
+  padding: 6px 30px;
+  height: 100%;
+  background-color: #7c7575;
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .bottom .container-md .left i {
+  margin-right: 10px;
+  font-size: 22px;
+}
+header .bottom .container-md .right {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+header .bottom .container-md .right .right-item {
+  padding: 6px 20px;
+}
+=======
+>>>>>>> 169f1e6f218c549114a298b0ada1657b3ba047ef
