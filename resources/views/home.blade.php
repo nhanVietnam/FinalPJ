@@ -15,7 +15,27 @@
             
         </section>
         <section class="bottom">
-            
+            <div class="left">
+                DANH MỤC SẢN PHẨM
+            </div>
+            <div class="right">
+                <div class="right-item">
+                    Hướng dẫn thanh toán
+                </div>
+                <div class="right-item">
+                    Hướng dẫn thanh toán
+                </div>
+                <div class="right-item">
+                    Hướng dẫn thanh toán
+                </div>
+                <div class="right-item">
+                <i class="fa fa-address-book" aria-hidden="true"></i>
+                    Hướng dẫn thanh toán
+                </div>
+                <div class="right-item">
+                    Hướng dẫn thanh toán
+                </div>
+            </div>
         </section>
     </header>
 @endsection
