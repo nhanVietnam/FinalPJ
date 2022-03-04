@@ -51,27 +51,34 @@
         </section>
         {{-- Middle Section End --}}
         <section class="bottom">
-            <div class="left">
-                DANH MỤC SẢN PHẨM
-            </div>
-            <div class="right">
-                <div class="right-item">
-                    Hướng dẫn thanh toán
+            <div class="container-md">
+                <div class="left">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    DANH MỤC SẢN PHẨM
                 </div>
-                <div class="right-item">
-                    Hướng dẫn thanh toán
+                <div class="right">
+                    <div class="right-item">
+                        <i class="fa fa-calendar-minus-o" aria-hidden="true"></i>
+                        <a href="">Hướng dẫn thanh toán</a>                        
+                    </div>
+                    <div class="right-item">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                        <a href="">Hướng dẫn trả góp</a>                      
+                    </div>
+                    <div class="right-item">
+                        <i class="fa fa-bus" aria-hidden="true"></i>                       
+                        <a href="">Chính sách giao hàng</a> 
+                    </div>
+                    <div class="right-item">
+                        <i class="fa fa-shield" aria-hidden="true"></i>                       
+                        <a href="">Chính sách bảo hành</a> 
+                    </div>
+                    <div class="right-item">
+                        <i class="fa fa-tag" aria-hidden="true"></i>                     
+                        <a href="">Tổng hợp khuyến mãi</a> 
+                    </div>
                 </div>
-                <div class="right-item">
-                    Hướng dẫn thanh toán
-                </div>
-                <div class="right-item">
-                <i class="fa fa-address-book" aria-hidden="true"></i>
-                    Hướng dẫn thanh toán
-                </div>
-                <div class="right-item">
-                    Hướng dẫn thanh toán
-                </div>
-            </div>
+            </div>     
         </section>
     </header>
 @endsection
