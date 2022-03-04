@@ -10,9 +10,17 @@ header{
             }
         }
         .links{
-            height: 40px;
-            color: white;
             background-color: #ED1C24;
+            &-wrapper{
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                a{
+                    color: white;
+                    padding: 0 15px;
+                }
+            }
         }
     }
     .mid{
