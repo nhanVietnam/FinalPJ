@@ -6,13 +6,13 @@
     <header>
         <section class="top">
             <!-- Slider main container -->
-            <div class="swiper">
+            <div class="swiper container-fluid">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')">Slide 1</div>
+                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"">Slide 2</div>
+                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')">Slide 3</div>
                 </div>
             </div>
             <div class="list">

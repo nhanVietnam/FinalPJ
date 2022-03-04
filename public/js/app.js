@@ -2068,6 +2068,14 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
+var swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+  autoplay: {
+    delay: 2000
+  }
+});
 
 /***/ }),
 

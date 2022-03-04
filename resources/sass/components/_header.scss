@@ -1,6 +1,14 @@
 header{
     .top{
-        
+        .swiper{
+            width: 100%;
+            height: 60px;
+            .swiper-slide{
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        }
     }
     .mid{
 
