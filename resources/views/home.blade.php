@@ -5,7 +5,15 @@
 @section('content')
     <header>
         <section class="top">
-            <div class="slide">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                </div>
             </div>
             <div class="list">
                 
