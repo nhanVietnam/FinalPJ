@@ -56,7 +56,7 @@
         </section>
         {{-- Middle Section End --}}
         <section class="bottom">
-            <div class="container-md">
+            <div class="container">
                 <div class="left">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                     DANH MỤC SẢN PHẨM

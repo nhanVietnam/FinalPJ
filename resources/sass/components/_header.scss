@@ -64,14 +64,13 @@ header{
             }
         }
     }
-<<<<<<< HEAD
     .bottom{
         margin-top: 10px;
-        .container-md {
+        .container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            height: 30px;
+            height: 40px;
             .left {
                 width: 300px;
                 padding: 6px 30px;
@@ -85,22 +84,38 @@ header{
                 i {
                     margin-right: 10px;
                     font-size: 22px;
+                    color: #fff;
                 }
             }
             .right {
-                width: calc(100% - 300px)
+                // width: calc(100% - 300px);
                 display: flex;
                 height: 100%;
                 align-items:center;
                 .right-item {
-                    padding: 6px 50px;
+                    padding: 0px 30px;
+                    height: 100%;
+                    transition: all 0.2s ease;
+                    display: flex;
+                    align-items: center;
+                    &:hover {
+                        background-color: #ED1C24;
+                        cursor: pointer;
+                        border-radius: 4px;
+                        a,i {
+                            color: #fff
+                        }
+                    }
+                    i {
+                        font-size: 22px;
+                        margin-right: 10px;
+                    }
+                    a {
+                        color: #333e48;
+                        // font-size: 16px;
+                    }
                 }
             }
         }
     }
-=======
-    // .bottom{
-        
-    // }
->>>>>>> 36d74f64f05b448d32f5734b8caefb3a1db4a238
 }

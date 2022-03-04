@@ -11577,7 +11577,28 @@ header .top .swiper .swiper-slide {
 header .top .links {
   background-color: #ED1C24;
 }
-<<<<<<< HEAD
+@media screen and (max-width: 799px) {
+  header .top .links {
+    display: none;
+  }
+}
+header .top .links-wrapper {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+header .top .links-wrapper a {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  border-left: 0.5px solid white;
+}
+header .top .links-wrapper a i {
+  font-size: 3rem;
+  margin-right: 8px;
+}
 header .mid .container {
   display: flex;
   align-items: center;
@@ -11601,41 +11622,17 @@ header .mid .container .search form .search-btn {
   color: #fff;
   background-color: #ED1C24;
   border-radius: 3px;
-=======
-@media screen and (max-width: 799px) {
-  header .top .links {
-    display: none;
-  }
 }
-header .top .links-wrapper {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-header .top .links-wrapper a {
-  color: white;
-  display: flex;
-  align-items: center;
-  padding: 0 15px;
-  border-left: 0.5px solid white;
-}
-header .top .links-wrapper a i {
-  font-size: 3rem;
-  margin-right: 8px;
->>>>>>> 169f1e6f218c549114a298b0ada1657b3ba047ef
-}
-<<<<<<< HEAD
 header .bottom {
   margin-top: 10px;
 }
-header .bottom .container-md {
+header .bottom .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 30px;
+  height: 40px;
 }
-header .bottom .container-md .left {
+header .bottom .container .left {
   width: 300px;
   padding: 6px 30px;
   height: 100%;
@@ -11646,17 +11643,35 @@ header .bottom .container-md .left {
   justify-content: center;
   align-items: center;
 }
-header .bottom .container-md .left i {
+header .bottom .container .left i {
   margin-right: 10px;
   font-size: 22px;
+  color: #fff;
 }
-header .bottom .container-md .right {
+header .bottom .container .right {
   display: flex;
   height: 100%;
   align-items: center;
 }
-header .bottom .container-md .right .right-item {
-  padding: 6px 20px;
+header .bottom .container .right .right-item {
+  padding: 0px 30px;
+  height: 100%;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
 }
-=======
->>>>>>> 169f1e6f218c549114a298b0ada1657b3ba047ef
+header .bottom .container .right .right-item:hover {
+  background-color: #ED1C24;
+  cursor: pointer;
+  border-radius: 4px;
+}
+header .bottom .container .right .right-item:hover a, header .bottom .container .right .right-item:hover i {
+  color: #fff;
+}
+header .bottom .container .right .right-item i {
+  font-size: 22px;
+  margin-right: 10px;
+}
+header .bottom .container .right .right-item a {
+  color: #333e48;
+}
