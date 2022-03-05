@@ -74,66 +74,77 @@
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 Laptop Gaming
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 Laptop văn phòng
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 Apple
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 PC Gaming
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 PC - Máy bộ GEARVN
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 Màn hình
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 Main - CPU - VGA
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 Case - Tản - Nguồn
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                Màn hình
+                               <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 Bàn phím
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
                                 Chuột
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                     </ul>
@@ -163,4 +174,8 @@
             </div>     
         </section>
     </header>
+    {{--  code footer ở dưới, có thể ẩn Header cho dễ nhìn, nhưng push lên để hiện lại giúp anh --}}
+    <footer> 
+
+    </footer>
 @endsection

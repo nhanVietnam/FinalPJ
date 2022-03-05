@@ -11601,6 +11601,7 @@ header .mid .container {
   align-items: center;
   justify-content: space-between;
   padding-block: 16px;
+  background: white;
 }
 header .mid .container .logo2 {
   width: 250px;
@@ -11710,6 +11711,11 @@ header .bottom .container .left-item a i {
   font-size: 25px;
   margin-right: 10px;
   color: #333e48;
+}
+header .bottom .container .left-item a i:last-child {
+  font-size: 18px;
+  margin-left: auto;
+  color: #999;
 }
 header .bottom .container .right {
   display: flex;

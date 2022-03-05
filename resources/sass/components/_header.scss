@@ -43,6 +43,7 @@ header {
             align-items: center;
             justify-content: space-between;
             padding-block: 16px;
+            background: white;
             .logo2 {
                 width: 250px;
                 img {
@@ -151,6 +152,11 @@ header {
                             font-size: 25px;
                             margin-right: 10px;
                             color: #333e48;
+                            &:last-child {
+                                font-size: 18px;
+                                margin-left: auto;
+                                color: #999;
+                            }
                         }
                     }
                 }
