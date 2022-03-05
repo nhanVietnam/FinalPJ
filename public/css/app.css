@@ -11595,12 +11595,9 @@ header .top .links-wrapper a {
   padding: 0 15px;
   border-left: 0.5px solid white;
 }
-<<<<<<< HEAD
-=======
 header .top .links-wrapper a:last-child {
   padding-right: 0;
 }
->>>>>>> 2a99f8ccd5ea09cd1477a35cb4c0ed6d2fb916c2
 header .top .links-wrapper a i {
   font-size: 3rem;
   margin-right: 8px;
@@ -11635,9 +11632,6 @@ header .mid .container .search form .search-btn {
   color: #fff;
   background-color: #ED1C24;
   border-radius: 3px;
-<<<<<<< HEAD
-}
-=======
 }
 header .mid .container .search form .search-btn i {
   margin-right: 10px;
@@ -11658,8 +11652,6 @@ header .mid .container .cart i {
   font-size: 25px;
   margin-right: 10px;
 }
-<<<<<<< HEAD
->>>>>>> 2a99f8ccd5ea09cd1477a35cb4c0ed6d2fb916c2
 header .bottom {
   margin-top: 10px;
 }
