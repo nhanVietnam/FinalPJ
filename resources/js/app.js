@@ -1,11 +1,11 @@
-
-require('./bootstrap');
-require('font-awesome/css/font-awesome.min.css')
-import Swiper from "swiper";
+require("./bootstrap");
+require("font-awesome/css/font-awesome.min.css");
+import Swiper, { Autoplay } from "swiper";
 import "swiper/css";
 
 const swiper = new Swiper(".swiper", {
     // Optional parameters
+    modules: [Autoplay],
     direction: "horizontal",
     loop: true,
     autoplay: {

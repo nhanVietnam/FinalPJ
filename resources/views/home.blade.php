@@ -69,6 +69,74 @@
                 <div class="left">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                     DANH MỤC SẢN PHẨM
+                    <ul class="left-items">
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                Laptop Gaming
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                Laptop văn phòng
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                Apple
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                PC Gaming
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                PC - Máy bộ GEARVN
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                Màn hình
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                Main - CPU - VGA
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                Case - Tản - Nguồn
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                               Màn hình
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                Bàn phím
+                            </a>
+                        </li>
+                        <li class="left-item">
+                            <a href="#">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                Chuột
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="right">
                     <div class="right-item">
@@ -78,7 +146,7 @@
                     <div class="right-item">
                         <i class="fa fa-money" aria-hidden="true"></i>
                         <a href="">Hướng dẫn trả góp</a>                      
-                    </div>
+                    </div>  
                     <div class="right-item">
                         <i class="fa fa-bus" aria-hidden="true"></i>                       
                         <a href="">Chính sách giao hàng</a> 
