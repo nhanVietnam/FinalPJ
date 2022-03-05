@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title','GEARVN - Trang chủ')
+@section('title', 'GEARVN - Trang chủ')
 
 @section('content')
     <header>
@@ -9,10 +9,13 @@
             <div class="s1 container-fluid">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"></div>
-                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')""></div>
-                <div class="swiper-slide" style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"></div>
+                    <!-- Slides -->
+                    <div class="swiper-slide"
+                        style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"></div>
+                    <div class="swiper-slide"
+                        style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"></div>
+                    <div class="swiper-slide"
+                        style="background-image: url('https://gstatic.gearvn.com/2021/10/0061fd.png')"></div>
                 </div>
             </div>
             <div class="links">
@@ -28,7 +31,7 @@
                         <i class="fa fa-newspaper-o" aria-hidden="true"></i>Tin công nghệ
                     </a>
                     <a href="#">
-                        <i class="fa fa-users" aria-hidden="true"></i>Tuyển dụng  
+                        <i class="fa fa-users" aria-hidden="true"></i>Tuyển dụng
                     </a>
                 </div>
             </div>
@@ -37,7 +40,7 @@
         <section class="mid">
             <div class="container">
                 <div class="logo2">
-                    <img src="{{asset('images/Logo-GEARVN_pc-300x70-1-1.png')}}" alt="">
+                    <img src="{{ asset('images/Logo-GEARVN_pc-300x70-1-1.png') }}" alt="">
                 </div>
                 <div class="search">
                     <form action="#">
@@ -64,12 +67,13 @@
             </div>
         </section>
         {{-- Middle Section End --}}
+        {{-- Bottom Section Start --}}
         <section class="bottom">
             <div class="container">
                 <div class="left">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                     DANH MỤC SẢN PHẨM
-                    <ul class="left-items">
+                    {{-- <ul class="left-items">
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
@@ -129,8 +133,8 @@
                         <li class="left-item">
                             <a href="#">
                                 <i class="fa fa-laptop" aria-hidden="true"></i>
-                               Màn hình
-                               <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                Màn hình
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="left-item">
@@ -147,32 +151,33 @@
                                 <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </a>
                         </li>
-                    </ul>
+                    </ul> --}}
                 </div>
                 <div class="right">
                     <div class="right-item">
                         <i class="fa fa-calendar-minus-o" aria-hidden="true"></i>
-                        <a href="">Hướng dẫn thanh toán</a>                        
+                        <a href="">Hướng dẫn thanh toán</a>
                     </div>
                     <div class="right-item">
                         <i class="fa fa-money" aria-hidden="true"></i>
-                        <a href="">Hướng dẫn trả góp</a>                      
-                    </div>  
-                    <div class="right-item">
-                        <i class="fa fa-bus" aria-hidden="true"></i>                       
-                        <a href="">Chính sách giao hàng</a> 
+                        <a href="">Hướng dẫn trả góp</a>
                     </div>
                     <div class="right-item">
-                        <i class="fa fa-shield" aria-hidden="true"></i>                       
-                        <a href="">Chính sách bảo hành</a> 
+                        <i class="fa fa-bus" aria-hidden="true"></i>
+                        <a href="">Chính sách giao hàng</a>
                     </div>
                     <div class="right-item">
-                        <i class="fa fa-tag" aria-hidden="true"></i>                     
-                        <a href="">Tổng hợp khuyến mãi</a> 
+                        <i class="fa fa-shield" aria-hidden="true"></i>
+                        <a href="">Chính sách bảo hành</a>
+                    </div>
+                    <div class="right-item">
+                        <i class="fa fa-tag" aria-hidden="true"></i>
+                        <a href="">Tổng hợp khuyến mãi</a>
                     </div>
                 </div>
             </div>
         </section>
+        {{-- Bottom Section End --}}
     </header>
     <main class="container">
         <section class="banner">
@@ -233,8 +238,100 @@
             
         </section>
     </main>
-    {{--  code footer ở dưới, có thể ẩn Header cho dễ nhìn, nhưng push lên để hiện lại giúp anh --}}
-    <footer> 
-
+    {{-- code footer ở dưới, có thể ẩn Header cho dễ nhìn, nhưng push lên để hiện lại giúp anh --}}
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="left">
+                    <h4>Đăng ký nhận bảng tin GEARVN</h4>
+                    <span>Nhận ngay thông tin về các chương trình khuyến mãi</span>
+                </div>
+                <form action="" class="right">
+                    <input type="email" placeholder="Email của bạn...">
+                    <button class="btn btn-danger">Đăng ký</button>
+                </form>
+            </div>
+            <div class="footer-mid">
+                <div class="footer-item">
+                    <h4 class="title">VỀ GEARVN</h4>
+                    <a href="#">Giới thiệu về GEARVN</a>
+                    <a href="#">Tuyển dụng khôi Văn Phòng</a>
+                    <a href="#">Tuyển dụng khối Showroom</a>
+                    <a href="#">Chính sách bảo mật</a>
+                    <a href="#">Điều khoản sử dụng</a>
+                </div>
+                <div class="footer-item">
+                    <h4 class="title">HỆ THỐNG TỔNG ĐÀI MIỄN PHÍ<p>(Làm việc từ 8:00 - 20:00)</p>
+                    </h4>
+                    <a href="">Tổng đài mua hàng: <b>18006975</b></a>
+                    <a href="">Tổng đài hỗ trợ khách hàng: <b>18006173</b></a>
+                </div>
+                <div class="footer-item">
+                    <h4 class="title">THÔNG TIN</h4>
+                    <a href="#">Theo dõi đơn hàng</a>
+                    <a href="#">Mua & giao nhận hàng</a>
+                    <a href="#">Quy định & hình thức thanh toán</a>
+                    <a href="#">Bảo hành & bảo trì</a>
+                    <a href="#">Đổi trả & hoàn tiền</a>
+                </div>
+                <div class="footer-item">
+                    <div class="item">
+                        <h4 class="title">ĐƠN VỊ VẬN CHUYỂN</h4>
+                        <div class="image">
+                            <img src="{{ asset('images/footer/giao-hang-nhanh.png') }}" alt="">
+                            <img src="{{ asset('images/footer/giao-hang-ems.png') }}" alt="">
+                            <img src="{{ asset('images/footer/giao-hang-chanh-xe.png') }}" alt="">
+                            <img src="{{ asset('images/footer/giao-hang-gearvn.png') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h4 class="title">CÁCH THỨC THANH TOÁN</h4>
+                        <div class="image">
+                            <img src="{{ asset('images/footer/internet.png') }}" alt="">
+                            <img src="{{ asset('images/footer/jcb.png') }}" alt="">
+                            <img src="{{ asset('images/footer/Mastercard.png') }}" alt="">
+                            <img src="{{ asset('images/footer/money-face.png') }}" alt="">
+                            <img src="{{ asset('images/footer/tra-gop.png') }}" alt="">
+                            <img src="{{ asset('images/footer/VISA.png') }}" alt="">
+                            <img src="{{ asset('images/footer/zalopay@3x.png') }}" alt="">
+                            <img src="{{ asset('images/footer/momooo.png') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-item">
+                    <a href="#">
+                        <img src="{{ asset('images/Logo-GEARVN_pc-300x70-1-1.png') }}" alt="">
+                    </a>
+                    <h3>CÔNG TY TNHH THƯƠNG MẠI GEARVN</h3>
+                    <span>Gearvn là doanh nghiệp chuyên cung cấp thiết bị, giải pháp về máy tính, thiết bị chơi game, thiết
+                        bị
+                        cao cấp hàng đầu Việt Nam.</span>
+                    <a href="">
+                        <img src="{{ asset('images/footer/dathongbao.png') }}" alt="">
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <h4 class="title">HỆ THỐNG SHOWROOM
+                        <p>SHOWROOM HCM (Làm việc từ 8:00 - 20:00)</p>
+                    </h4>
+                    <li>Địa chỉ 1: 78-80-82 Hoàng Hoa Thám, Phường 12, Quận Tân Bình.</li>
+                    <li>Địa chỉ 2: 905 Kha Vạn Cân, Phường Linh Tây, Thành phố Thủ Đức.</li>
+                    <h4 class="title">SHOWROOM HN <p>Làm việc từ 9:00 - 19:00</p>
+                    </h4>
+                    <li>Địa chỉ : 37 Ngõ 121 Thái Hà, Phường Trung Liệt, Quận Đống Đa.</li>
+                </div>
+                <div class="footer-item">
+                    <h4>TIN TỨC CÔNG NGHỆ</h4>
+                    <a href=""><img src="{{ asset('images/footer/GVN360-04.png') }}" alt=""></a>
+                    <h4 class="title">KẾT NỐI VỚI CHÚNG TÔI</h4>
+                    <div class="image">
+                        <a href=""><img src="{{ asset('images/footer/facebook.png') }}" alt=""></a>
+                        <a href=""><img src="{{ asset('images/footer/group.png') }}" alt=""></a>
+                        <a href=""><img src="{{ asset('images/footer/youtube.png') }}" alt=""></a>
+                    </div>
+                </div>
+            </div>
     </footer>
 @endsection
