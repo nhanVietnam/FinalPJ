@@ -6,7 +6,7 @@
     <header>
         <section class="top">
             <!-- Slider main container -->
-            <div class="swiper container-fluid">
+            <div class="s1 container-fluid">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -171,9 +171,68 @@
                         <a href="">Tổng hợp khuyến mãi</a> 
                     </div>
                 </div>
-            </div>     
+            </div>
         </section>
     </header>
+    <main class="container">
+        <section class="banner">
+            <div class="items">
+                <div class="item">
+                    <div class="s2">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <a href="#" class="swiper-slide" >
+                                <img src="./images/banner-1.jpg" alt=""
+                                >
+                            </a>
+                            <a href="#" class="swiper-slide" >
+                                <img src="./images/banner-2.jpg" alt=""
+                                >
+                            </a>
+                            <a href="#" class="swiper-slide" >
+                                <img src="./images/banner-3.jpg" alt=""
+                                >
+                            </a>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <a href="item">
+                    <img src="./images/subbaner-1.png" alt="">
+                </a>
+                <a href="item">
+                    <img src="./images/subbaner-2.png" alt="">
+                </a>
+                <a href="item">
+                    <img src="./images/subbaner-3.png" alt="">
+                </a>
+                <a href="item">
+                    <img src="./images/subbaner-4.png" alt="">
+                </a>
+                <a href="item">
+                    <img src="./images/subbaner-5.png" alt="">
+                </a>
+            </div>
+            <div class="subbanner">
+                <a href="#">
+                    <img src="./images/subbanner--1.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/subbanner--2.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/subbanner--1.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./images/subbanner--2.png" alt="">
+                </a>
+            </div>
+        </section> 
+        <section class="brands">
+            
+        </section>
+    </main>
     {{--  code footer ở dưới, có thể ẩn Header cho dễ nhìn, nhưng push lên để hiện lại giúp anh --}}
     <footer> 
 

@@ -11381,7 +11381,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
   color: #333;
-  background: red;
+  background: #efefef;
 }
 
 a {
@@ -11559,11 +11559,11 @@ a {
   margin: 15px auto;
 }
 
-header .top .swiper {
+header .top .s1 {
   width: 100%;
   height: 60px;
 }
-header .top .swiper .swiper-slide {
+header .top .s1 .swiper-slide {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11658,7 +11658,7 @@ header .bottom .container {
   height: 40px;
 }
 header .bottom .container .left {
-  width: 300px;
+  width: 270px;
   padding: 6px 30px;
   height: 100%;
   background-color: #7c7575;
@@ -11713,7 +11713,8 @@ header .bottom .container .left-item a i {
   color: #333e48;
 }
 header .bottom .container .left-item a i:last-child {
-  font-size: 18px;
+  font-size: 10px;
+  font-weight: 300;
   margin-left: auto;
   color: #999;
 }
@@ -11744,4 +11745,39 @@ header .bottom .container .right .right-item i {
 }
 header .bottom .container .right .right-item a {
   color: #333e48;
+}
+
+.banner .items {
+  width: calc(100% - 275px);
+  margin-left: 275px;
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.banner .items .item:nth-child(1) {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+.banner .items .s2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.banner .items .s2 .swiper-button-next,
+.banner .items .s2 .swiper-button-prev {
+  color: white;
+}
+.banner .items .s2 .swiper-button-next:after,
+.banner .items .s2 .swiper-button-prev:after {
+  font-size: 28px;
+}
+.banner .subbanner {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.banner .subbanner a {
+  width: calc(25% - 16px);
 }
