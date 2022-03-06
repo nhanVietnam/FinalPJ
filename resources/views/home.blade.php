@@ -73,85 +73,6 @@
                 <div class="left">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                     DANH MỤC SẢN PHẨM
-                    {{-- <ul class="left-items">
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                Laptop Gaming
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                Laptop văn phòng
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                Apple
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                PC Gaming
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                PC - Máy bộ GEARVN
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                Màn hình
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                Main - CPU - VGA
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                Case - Tản - Nguồn
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                Màn hình
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                Bàn phím
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li class="left-item">
-                            <a href="#">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                Chuột
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul> --}}
                 </div>
                 <div class="right">
                     <div class="right-item">
@@ -180,22 +101,101 @@
         {{-- Bottom Section End --}}
     </header>
     <main class="container">
-        <section class="banner">
+        <section class="banner">    
+            <ul class="banner-menu">
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        Laptop Gaming
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        Laptop văn phòng
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        Apple
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        PC Gaming
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        PC - Máy bộ GEARVN
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        Màn hình
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        Main - CPU - VGA
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        Case - Tản - Nguồn
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        Màn hình
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        Bàn phím
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="banner-menu-item">
+                    <a href="#">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        Chuột
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
             <div class="items">
                 <div class="item">
                     <div class="s2">
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <a href="#" class="swiper-slide" >
-                                <img src="./images/banner-1.jpg" alt=""
+                                <img src="./images/banners/banner-1.jpg" alt=""
                                 >
                             </a>
                             <a href="#" class="swiper-slide" >
-                                <img src="./images/banner-2.jpg" alt=""
+                                <img src="./images/banners/banner-2.jpg" alt=""
                                 >
                             </a>
                             <a href="#" class="swiper-slide" >
-                                <img src="./images/banner-3.jpg" alt=""
+                                <img src="./images/banners/banner-3.jpg" alt=""
                                 >
                             </a>
                         </div>
@@ -204,38 +204,59 @@
                     </div>
                 </div>
                 <a href="item">
-                    <img src="./images/subbaner-1.png" alt="">
+                    <img src="./images/banners/subbaner-1.png" alt="">
                 </a>
                 <a href="item">
-                    <img src="./images/subbaner-2.png" alt="">
+                    <img src="./images/banners/subbaner-2.png" alt="">
                 </a>
                 <a href="item">
-                    <img src="./images/subbaner-3.png" alt="">
+                    <img src="./images/banners/subbaner-3.png" alt="">
                 </a>
                 <a href="item">
-                    <img src="./images/subbaner-4.png" alt="">
+                    <img src="./images/banners/subbaner-4.png" alt="">
                 </a>
                 <a href="item">
-                    <img src="./images/subbaner-5.png" alt="">
+                    <img src="./images/banners/subbaner-5.png" alt="">
                 </a>
             </div>
             <div class="subbanner">
                 <a href="#">
-                    <img src="./images/subbanner--1.png" alt="">
+                    <img src="./images/banners/subbanner--1.png" alt="">
                 </a>
                 <a href="#">
-                    <img src="./images/subbanner--2.png" alt="">
+                    <img src="./images/banners/subbanner--2.png" alt="">
                 </a>
                 <a href="#">
-                    <img src="./images/subbanner--1.png" alt="">
+                    <img src="./images/banners/subbanner--1.png" alt="">
                 </a>
                 <a href="#">
-                    <img src="./images/subbanner--2.png" alt="">
+                    <img src="./images/banners/subbanner--2.png" alt="">
                 </a>
             </div>
         </section> 
         <section class="brands">
-            
+            <div class="brands-header">
+                <h2>Thương hiệu sản phẩm</h2>
+                <a href="#">Xem tất cả</a>
+            </div>
+            <div class="brands-items">
+                <a href="#" class="item"><img src="./images/brands/brand-1.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-2.jpg" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-3.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-4.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-5.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-6.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-7.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-8.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-9.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-10.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-11.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-12.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-13.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-14.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-15.png" alt=""></a>
+                <a href="#" class="item"><img src="./images/brands/brand-16.png" alt=""></a>
+            </div>
         </section>
     </main>
     {{-- code footer ở dưới, có thể ẩn Header cho dễ nhìn, nhưng push lên để hiện lại giúp anh --}}
