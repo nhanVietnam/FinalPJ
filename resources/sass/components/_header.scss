@@ -38,12 +38,13 @@ header {
         }
     }
     .mid {
+        background: white;
         .container {
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding-block: 16px;
-            background: white;
+            
             .logo2 {
                 width: 250px;
                 img {
@@ -195,4 +196,45 @@ header {
             }
         }
     }
+
+    @media(max-width: 1299px){
+        .mid{
+            .container{
+                .search{
+                    form{
+                        width: 500px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width: 1199px){
+        .mid{
+            .container{
+                .user{
+                    .user--label{
+                        display: none;
+                    }
+                }
+
+                .cart{
+                    p{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    // @media(max-width: 768px){
+    //     .mid{
+    //         .container{
+    //             flex-wrap: wrap;
+                
+    //         }
+    //     }
+    // }
 }
+
+

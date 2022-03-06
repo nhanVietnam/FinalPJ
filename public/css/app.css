@@ -11595,12 +11595,14 @@ header .top .links-wrapper a i {
   font-size: 3rem;
   margin-right: 8px;
 }
+header .mid {
+  background: white;
+}
 header .mid .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-block: 16px;
-  background: white;
 }
 header .mid .container .logo2 {
   width: 250px;
@@ -11745,6 +11747,19 @@ header .bottom .container .right .right-item i {
 }
 header .bottom .container .right .right-item a {
   color: #333e48;
+}
+@media (max-width: 1299px) {
+  header .mid .container .search form {
+    width: 500px;
+  }
+}
+@media (max-width: 1199px) {
+  header .mid .container .user .user--label {
+    display: none;
+  }
+  header .mid .container .cart p {
+    display: none;
+  }
 }
 
 .banner .banner-menu {
