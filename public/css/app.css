@@ -11761,6 +11761,16 @@ header .bottom .container .right .right-item a {
     display: none;
   }
 }
+@media (max-width: 999px) {
+  header .mid .container {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  header .mid .container .search form {
+    width: 400px;
+  }
+}
 
 .banner .banner-menu {
   transform: translateY(-10px);

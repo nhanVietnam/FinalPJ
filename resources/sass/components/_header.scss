@@ -227,14 +227,26 @@ header {
         }
     }
 
-    // @media(max-width: 768px){
-    //     .mid{
-    //         .container{
-    //             flex-wrap: wrap;
+    @media(max-width: 999px){
+        .mid{
+            .container{
+                flex-wrap: wrap;
                 
-    //         }
-    //     }
-    // }
+            }
+        }
+    }
+
+    @media(max-width: 768px){
+        .mid{
+            .container{
+                .search{
+                    form{
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
