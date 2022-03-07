@@ -258,6 +258,122 @@
                 <a href="#" class="item"><img src="./images/brands/brand-16.png" alt=""></a>
             </div>
         </section>
+        <section class="flash-sale">
+            <div class="flash-sale-header">
+                
+            </div>
+            <div class="flash-sale-items s3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide flash-sale-item">
+                        <a href="#">
+                            <div class="flash-sale-thumbnail">
+                                <img src="./images/flashsale/flash-sale-1.jpg" alt="">
+                            </div>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing eli.</h4> 
+                        </a>
+                        <p>20.000.000<span>₫</span></p>
+                    </div>
+                    <div class="swiper-slide flash-sale-item">
+                        <a href="#">
+                            <div class="flash-sale-thumbnail">
+                                <img src="./images/flashsale/flash-sale-2.jpg" alt="">
+                            </div>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing eli.</h4> 
+                        </a>
+                        <p>20.000.000<span>₫</span></p>
+                    </div>
+                    <div class="swiper-slide flash-sale-item">
+                        <a href="#">
+                            <div class="flash-sale-thumbnail">
+                                <img src="./images/flashsale/flash-sale-3.jpg" alt="">
+                            </div>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing eli.</h4> 
+                        </a>
+                        <p>20.000.000<span>₫</span></p>
+                    </div>
+                    <div class="swiper-slide flash-sale-item">
+                        <a href="#">
+                            <div class="flash-sale-thumbnail">
+                                <img src="./images/flashsale/flash-sale-4.jpg" alt="">
+                            </div>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing eli.</h4> 
+                        </a>
+                        <p>20.000.000<span>₫</span></p>
+                    </div>
+                    <div class="swiper-slide flash-sale-item">
+                        <a href="#">    
+                            <div class="flash-sale-thumbnail">
+                                <img src="./images/flashsale/flash-sale-5.jpg" alt="">
+                            </div>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing eli.</h4> 
+                        </a>
+                        <p>20.000.000<span>₫</span></p>
+                    </div>
+                    <div class="swiper-slide flash-sale-item">
+                        <a href="#">    
+                            <div class="flash-sale-thumbnail">
+                                <img src="./images/flashsale/flash-sale-6.jpg" alt="">
+                            </div>
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing eli.</h4> 
+                        </a>
+                        <p>20.000.000<span>₫</span></p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="pc-sale">
+            <div class="pc-sale-header">
+                <h2>Top PC bán chạy</h2>
+                <div class="pc-sale-links">
+                    <a href="#" class="pc-sale-link">PC Intel NUC</a>
+                    <a href="#" class="pc-sale-link">PC Gaming cao cấp</a>
+                    <a href="#">iMac</a>
+                </div>
+            </div>
+            <div class="pc-sale-body s4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide pc-sale-product">
+                        <a href="#">
+                            <img src="./images/pcsale/pc-sale-1.jpg" alt="">
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                        </a>
+                        <p>6.950.000<span>₫</span></p>
+                    </div>
+                    <div class="swiper-slide pc-sale-product">
+                        <a href="#">
+                            <img src="./images/pcsale/pc-sale-1.jpg" alt="">
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                        </a>
+                        <p>6.950.000<span>₫</span></p>
+                    </div>
+                    <div class="swiper-slide pc-sale-product">
+                        <a href="#">
+                            <img src="./images/pcsale/pc-sale-1.jpg" alt="">
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                        </a>
+                        <p>6.950.000<span>₫</span></p>
+                    </div>
+                    <div class="swiper-slide pc-sale-product">
+                        <a href="#">
+                            <img src="./images/pcsale/pc-sale-1.jpg" alt="">
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                        </a>
+                        <p>6.950.000<span>₫</span></p>
+                    </div>
+                    <div class="swiper-slide pc-sale-product">
+                        <a href="#">
+                            <img src="./images/pcsale/pc-sale-1.jpg" alt="">
+                            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                        </a>
+                        <p>6.950.000<span>₫</span></p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
     </main>
     {{-- code footer ở dưới, có thể ẩn Header cho dễ nhìn, nhưng push lên để hiện lại giúp anh --}}
     <footer>
