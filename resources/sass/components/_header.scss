@@ -1,6 +1,7 @@
 header {
     .top {
         .s1 {
+            overflow: hidden;
             width: 100%;
             height: 60px;
             .swiper-slide {
@@ -39,12 +40,12 @@ header {
     }
     .mid {
         background: white;
-        .container {
+        .mid-wrapper {
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding-block: 16px;
-            
+
             .logo2 {
                 width: 250px;
                 img {
@@ -89,17 +90,30 @@ header {
             .cart {
                 display: flex;
                 align-items: center;
-
                 i {
                     font-size: 25px;
                     margin-right: 10px;
+                    position: relative;
+                    .quantity {
+                        position: absolute;
+                        width: 22px;
+                        height: 22px;
+                        line-height: 22px;
+                        top: -10px;
+                        right: -10px;
+                        border-radius: 100rem;
+                        background-color: #ed1c24;
+                        color: white;
+                        text-align: center;
+                        font-size: 16px;
+                    }
                 }
             }
         }
     }
     .bottom {
         margin-top: 10px;
-        .container {
+        .bottom-wrapper {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -197,11 +211,11 @@ header {
         }
     }
 
-    @media(max-width: 1299px){
-        .mid{
-            .container{
-                .search{
-                    form{
+    @media (max-width: 1299px) {
+        .mid {
+            &-wrapper {
+                .search {
+                    form {
                         width: 500px;
                     }
                 }
@@ -209,17 +223,17 @@ header {
         }
     }
 
-    @media(max-width: 1199px){
-        .mid{
-            .container{
-                .user{
-                    .user--label{
+    @media (max-width: 1199px) {
+        .mid {
+            &-wrapper {
+                .user {
+                    .user--label {
                         display: none;
                     }
                 }
 
-                .cart{
-                    p{
+                .cart {
+                    p {
                         display: none;
                     }
                 }
@@ -227,20 +241,19 @@ header {
         }
     }
 
-    @media(max-width: 999px){
-        .mid{
-            .container{
+    @media (max-width: 999px) {
+        .mid {
+            &-wrapper {
                 flex-wrap: wrap;
-                
             }
         }
     }
 
-    @media(max-width: 768px){
-        .mid{
-            .container{
-                .search{
-                    form{
+    @media (max-width: 768px) {
+        .mid {
+            &-wrapper {
+                .search {
+                    form {
                         width: 400px;
                     }
                 }
@@ -248,5 +261,3 @@ header {
         }
     }
 }
-
-

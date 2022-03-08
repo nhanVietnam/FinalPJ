@@ -44,7 +44,7 @@ const swiper_s4 = new Swiper(".s4", {
     direction: "horizontal",
     loop: true,
     slidesPerView: 5,
-    spaceBetween: 10,
+    spaceBetween: 0,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

@@ -2109,7 +2109,7 @@ var swiper_s4 = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".s4", {
   direction: "horizontal",
   loop: true,
   slidesPerView: 5,
-  spaceBetween: 10,
+  spaceBetween: 0,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev"

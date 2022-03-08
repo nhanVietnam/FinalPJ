@@ -20,7 +20,7 @@
             </div>
             <div class="links">
                 <i class="fa-solid fa-headset"></i>
-                <div class="links-wrapper container">
+                <div class="links-wrapper container-lg">
                     <a href="#">
                         <i class="fa fa-headphones" aria-hidden="true"></i>Tư vấn mua hàng:1800 6975
                     </a>
@@ -38,7 +38,7 @@
         </section>
         {{-- Middle section start --}}
         <section class="mid">
-            <div class="container">
+            <div class="container-lg mid-wrapper">
                 <div class="logo2">
                     <img src="{{ asset('images/Logo-GEARVN_pc-300x70-1-1.png') }}" alt="">
                 </div>
@@ -61,7 +61,9 @@
                     </div>
                 </div>
                 <div class="cart">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <i class="fa fa-shopping-cart" aria-hidden="true">
+                        <span class="quantity">2</span>
+                    </i>
                     <p>Giỏ hàng</p>
                 </div>
             </div>
@@ -69,7 +71,7 @@
         {{-- Middle Section End --}}
         {{-- Bottom Section Start --}}
         <section class="bottom">
-            <div class="container">
+            <div class="container-lg bottom-wrapper">
                 <div class="left">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                     DANH MỤC SẢN PHẨM
@@ -100,7 +102,7 @@
         </section>
         {{-- Bottom Section End --}}
     </header>
-    <main class="container">
+    <main class="container-lg">
         <section class="banner">    
             <ul class="banner-menu">
                 <li class="banner-menu-item">
@@ -329,7 +331,7 @@
                 <div class="pc-sale-links">
                     <a href="#" class="pc-sale-link">PC Intel NUC</a>
                     <a href="#" class="pc-sale-link">PC Gaming cao cấp</a>
-                    <a href="#">iMac</a>
+                    <a href="#" class="pc-sale-link">iMac</a>
                 </div>
             </div>
             <div class="pc-sale-body s4">
@@ -364,7 +366,7 @@
                     </div>
                     <div class="swiper-slide pc-sale-product">
                         <a href="#">
-                            <img src="./images/pcsale/pc-sale-1.jpg" alt="">
+                            <img src="./images/pcsale/pc-sale-1.jpg" alt="" />
                             <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
                         </a>
                         <p>6.950.000<span>₫</span></p>
@@ -374,10 +376,71 @@
                 <div class="swiper-button-prev"></div>
             </div>
         </section>
+        <section class="screen">
+            <div class="screen-header">
+                <h2>Màn hình khuyến mãi hot</h2>
+                <div class="screen-links">
+                    <a href="#" class="screen-link">Màn hình Acer</a>
+                    <a href="#" class="screen-link">Màn hình Asus</a>
+                    <a href="#" class="screen-link">Màn hình cong</a>
+                </div>
+            </div>
+            <div class="screen-products">
+                <div class="screen-product">
+                    <a href="#">
+                        <img src="./images/screen-1.jpg" alt="" />
+                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                    </a>
+                    <p>6.950.000<span>₫</span></p>
+                </div>
+                <div class="screen-product">
+                    <a href="#">
+                        <img src="./images/screen-1.jpg" alt="" />
+                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                    </a>
+                    <p>6.950.000<span>₫</span></p>
+                </div>
+                <div class="screen-product">
+                    <a href="#">
+                        <img src="./images/screen-1.jpg" alt="" />
+                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                    </a>
+                    <p>6.950.000<span>₫</span></p>
+                </div>
+                <div class="screen-product">
+                    <a href="#">
+                        <img src="./images/screen-1.jpg" alt="" />
+                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                    </a>
+                    <p>6.950.000<span>₫</span></p>
+                </div>
+                <div class="screen-product">
+                    <a href="#">
+                        <img src="./images/screen-1.jpg" alt="" />
+                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                    </a>
+                    <p>6.950.000<span>₫</span></p>
+                </div>
+                <div class="screen-product">
+                    <a href="#">
+                        <img src="./images/screen-1.jpg" alt="" />
+                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                    </a>
+                    <p>6.950.000<span>₫</span></p>
+                </div>
+                <div class="screen-product">
+                    <a href="#">
+                        <img src="./images/screen-1.jpg" alt="" />
+                        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing</h4>
+                    </a>
+                    <p>6.950.000<span>₫</span></p>
+                </div>
+            </div>
+        </section>
     </main>
     {{-- code footer ở dưới, có thể ẩn Header cho dễ nhìn, nhưng push lên để hiện lại giúp anh --}}
     <footer>
-        <div class="container">
+        <div class="container-lg">
             <div class="footer-top">
                 <div class="left">
                     <h4>Đăng ký nhận bảng tin GEARVN</h4>
